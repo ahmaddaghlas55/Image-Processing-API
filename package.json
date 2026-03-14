@@ -1,0 +1,44 @@
+{
+  "name": "image-processing-api",
+  "version": "1.0.0",
+  "description": "udacity first project for full stack dev",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/src/index.js",
+    "dev": "nodemon src/index.ts",
+    "jasmine": "jasmine",
+    "test": "npm run build && npm run jasmine",
+    "lint": "eslint . --ext .ts",
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmaddaghlas55/Image-Processing-API.git"
+  },
+  "author": "ahmadD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmaddaghlas55/Image-Processing-API/issues"
+  },
+  "homepage": "https://github.com/ahmaddaghlas55/Image-Processing-API#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/jasmine": "^6.0.0",
+    "@types/node": "^25.5.0",
+    "@typescript-eslint/eslint-plugin": "^8.57.0",
+    "@typescript-eslint/parser": "^8.57.0",
+    "eslint": "^10.0.3",
+    "jasmine": "^6.1.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.1",
+    "reporter": "^0.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "sharp": "^0.34.5"
+  }
+}
